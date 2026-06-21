@@ -1,0 +1,38 @@
+# --- Operating System Files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Python Files ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+
+# --- Temporary Files & Directories ---
+tmp/
+temp/
+*.tmp
+
+# --- Text Editor / IDE Configurations ---
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# --- Future-Proofing (If you export to PDF or HTML) ---
+*.pdf
+*.html
+dist/
+build/
+out/
+
+# --- Environment & Node Tools ---
+.env
+node_modules/
+.npm/
