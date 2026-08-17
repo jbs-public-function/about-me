@@ -1,5 +1,13 @@
 # Data Janitor
 
+### Skills & Competencies
+### Skills & Competencies
+*   **Languages:** Python (Expert), C++, Lua, VBA
+*   **Data Science & ML:** Pandas, NumPy, Sci-Kit Learn, PyTorch, Matplotlib, Biophysical Modeling
+*   **Infrastructure & MLOps:** AWS (Fargate, Batch, S3, EventBridge), Metaflow, Systems Architecture, Docker
+*   **Data & APIs:** PostgreSQL, PostGIS, gRPC, Protocol Buffers, Zarr
+*   **Core Strengths:** Problem solving, optimization, distributed systems, continuous learning, Vibecoding
+
 ### Contact Me
 * **LinkedIn:** [James Barrett](https://www.linkedin.com/in/james-barrett-36075bb3/)
 * **Personal GitHub:** [jbs-public-function](https://github.com/jbs-public-function)
@@ -8,8 +16,8 @@
 ___
 
 #### The Arc of My Career
-
 ![My Career](assets/dunning-krueger-effect.png)
+*Stay Humble & Never Stop Learning*
 
 ---
 
