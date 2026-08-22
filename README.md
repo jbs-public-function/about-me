@@ -1,68 +1,65 @@
-# Data Janitor
+# James Barrett: Senior Computational Scientist & Cloud Infrastructure Engineer
 
-### Skills & Competencies
-### Skills & Competencies
-*   **Languages:** Python (Expert), C++, Lua, VBA
-*   **Data Science & ML:** Pandas, NumPy, Sci-Kit Learn, PyTorch, Matplotlib, Biophysical Modeling
-*   **Infrastructure & MLOps:** AWS (Fargate, Batch, S3, EventBridge), Metaflow, Systems Architecture, Docker
-*   **Data & APIs:** PostgreSQL, PostGIS, gRPC, Protocol Buffers, Zarr
-*   **Core Strengths:** Problem solving, optimization, distributed systems, continuous learning, Vibecoding
+Welcome to my professional repository. I am a systems engineer and cloud infrastructure architect who designs, builds, and optimizes planetary-scale data platforms. 
 
-### Contact Me
-* **LinkedIn:** [James Barrett](https://www.linkedin.com/in/james-barrett-36075bb3/)
-* **Personal GitHub:** [jbs-public-function](https://github.com/jbs-public-function)
-* **Professional GitHub:** [jbagrible](https://github.com/jbagrible)
+In the industry, I am known as the **"Data Janitor"**—a title I wear with pride. My engineering philosophy was forged working night shifts as a physical janitor while completing my economics degree and computer science coursework at the University of Illinois at Urbana-Champaign. I believe in establishing clear-cut structural order, automating away manual labor, and leaving every platform cleaner, faster, and more cost-effective than I found it.
 
-___
+---
 
-#### The Arc of My Career
-![My Career](assets/dunning-krueger-effect.png)
+## 🚀 Key Achievements
+
+*   **VPC Cost Elimination:** Slid department AWS VPC data transfer fees from **$800/day to ~$0/day** (saving over **$280,000/year**) via custom local S3 container caches and internal network routes.
+*   **Serverless Modernization:** Re-engineered fragile legacy weather ETL pipelines into serverless AWS Step Functions and AWS Batch state machines, **slashing monthly database and compute costs by 80–90%**.
+*   **Distributed APIs:** Architected low-latency **gRPC microservices** using Protocol Buffers to stream multi-terabyte environmental and GIS datasets organization-wide, establishing an enterprise-wide contract-driven single source of truth.
+*   **Enterprise MLOps Stack:** Led the end-to-end design, Terraform deployment, and adoption of **Metaflow** on AWS, empowering the data science team to self-serve high-performance compute resources.
+*   **Performance Optimization:** Refactored a core, multi-module mechanistic biophysical crop growth simulation from legacy Python 2.7 to Python 3.6, delivering a **10x execution speedup** (reducing loop times from 60 seconds to 5 seconds).
+
+---
+
+## 🛠️ Tech Stack & Specialties
+
+*   **Languages:** Python (Expert), Bash/Shell (Expert), C++, SQL, Lua, VBA
+*   **Infrastructure & MLOps:** Terraform, Metaflow, Docker, CircleCI, Apache Airflow, GitHub Actions
+*   **AWS Cloud Ecosystem:** Batch, Step Functions, Fargate, S3, RDS, IAM, EventBridge, VPC, Athena, Glue
+*   **APIs & Serialization:** gRPC, Protocol Buffers (protobuf v3), REST APIs, JSON
+*   **Data & Geospatial:** Postgres/PostGIS, Zarr, Pandas, NumPy, SciPy, Matplotlib
+
+---
+
+## 🗺️ The "Janitor-to-Compiler" Career Arc
+
+My journey from night-shift cleaning routes to senior-level systems architecture has given me a deep appreciation for computational efficiency and a high tolerance for grit. 
+
+```mermaid
+graph TD
+    A[Janitorial Work <br/> Night Shift: 5:00 PM - 1:30 AM] -->|Applied Big O to cleaning routes| B[Parkland College & UIUC Economics <br/> Advanced Mathematics & CS 225 C++]
+    B -->|Self-taught Lua & VBA scripting| C[Data Science Intern <br/> Migrated biophysical model Python 2 to 3]
+    C -->|Acquired by Nutrien| D[Associate Computational Scientist <br/> Cloud pipelines & CI/CD upskilling]
+    D --> E[Computational Scientist <br/> Serverless querying & geospatial seed tool]
+    E --> F[Senior Computational Scientist <br/> Enterprise Metaflow, gRPC, $800/day VPC cost elimination]
+```
+
+![My Career](assets/dunning-krueger-effect.png)  
 *Stay Humble & Never Stop Learning*
 
 ---
 
-## How We Got Here
+## 📂 Navigation & Repository Map
 
-I graduated high school without much direction. I wasn't a particularly good student and college seemed a bridge too far. I wandered from job to job: fry cook, gas station attendant, FedEx Ground package handler. None of these positions were satisfying, but they held the line. Eventually, I got a job with a local janitorial company. For a directionless person, this was a fascinating job. It was clear-cut with clean objectives. The building isn't clean; by the end of your shift, it will be clean. Empty the trash, wipe down desks, squeegee the door glass, clean the bathrooms. Dust. Vacuum. Mop. Done.
+To maintain a clean separation of concerns, this repository is organized into specific markdown sub-files. Please explore the sections below depending on your focus:
 
-I was good at it. It got to a point where I could easily knock out an 8-hour shift in 5-6 hours. I spent a lot of time listening to various podcasts while working, which sparked my latent intellectual curiosity. Wanting more for myself, I enrolled in community college. I had residual math anxiety, so I picked an Associate degree program I felt would have manageable mathematics. My first year, I tested into pre-college algebra. 
-
-I do not know what had changed for me, mentally, between graduating high school with an abysmal GPA and these years at community college. Maybe I had allowed myself to be humble enough to learn, combined with the phenomenal mathematics department of Parkland Community College. I had a Chilean professor who, when talking about various algebraic formulas, would often say in a delightful accent, *"If you want to bomb the village you need the x and the y."* A gruesome example, but it stuck with me.
-
-I spent hours at a time doing every odd problem in my pre-college algebra textbook. Writing and thinking through formulas until my fingers were cramped and my nail beds bled. I drilled and drilled until the basics of algebra became rote. Confidence followed. Graduating with an Associate degree in Business Administration, I transferred to the University of Illinois at Urbana-Champaign. Around this same time, I started playing with the programming language Lua for scripting in Minecraft, as well as learning some VBA for Excel in one of my business courses. I really enjoyed programming as a concept. It was cool that the logic I wrote could execute arbitrary actions. The code was sloppy and amateurish, but it did what I asked it to do.
-
-I knew I wanted to work with computers. My GPA at Parkland was respectable, with a few minor hiccups, but I felt transferring into the CS department at UIUC from Parkland might have been too big a reach—the program is incredibly competitive. I enjoyed economics and felt it would satisfy my intellectual curiosity while teaching me how to work with computing to solve econometric questions. I loaded up on mathematics courses outside the scope of my requirements: discrete mathematics, linear algebra, and calculus. Pushing through registration portals at night, I managed to shoehorn my way into a few core CS courses as well—most notably **CS 225: Data Structures & Algorithms**. This class was the most challenging of my undergraduate career, involving implementing complex data structures in C++ alongside manual memory management.
-
-Throughout this time, I was still a janitor. I worked nights from 5:00 PM to 1:30 AM, Monday through Friday, plus overtime. During the day, I maintained a full-time class schedule from 9:00 AM to 3:00 PM. It was grueling. I had to support myself and my daughter. I pushed myself harder than I ever had before.
-
-Donald Knuth and Big O notation heavily influenced me at this point. I actively applied the concepts of time complexity and efficiency to my cleaning routes. *Is it faster to clean a whole room and then move to the next? Is it more efficient to commit to one task at a time across the entire floor?* I managed to condense my shifting work even further, allowing more time to complete my schoolwork. I would work on calculus problems until I got stuck, and then go clean some more. Walking and cleaning became my pathway to thinking through difficult programmatic problems. To this day, physical movement is how I solve complex architecture bugs.
-
-___
-
-## What Then?
-
-I graduated from the University of Illinois at Urbana-Champaign with a Bachelor of Arts degree in Economics and enough computer science coursework to be a danger to myself. I was still working as a janitor while looking for new opportunities. There were false starts and rejected applications, but they didn't lay me low. I had already jumped into the volcano and survived. 
-
-In 2017, I was hired as a Data Science Intern at Agrible, Inc., an ag-tech startup launched from the incubator at UIUC's Research Park. The exact day I was hired, they laid off half of their staff. Despite the turbulence, I was determined to make the most of the opportunity. I had my foot in the door and was going to leave my mark. I worked under incredible mentors like physicist Brent Trenhaile and engineers Chad Hawkins and Wei Chen. From them, I learned a lot about engineering resilience: every problem has a solution, sometimes you just have to grind harder for it.
-
-I threw myself into the engineering codebase and dedicated myself to upskilling. I learned the ins and outs of the Python ecosystem. Though my title was "Data Science Intern," my actual day-to-day involved fixing, patching, testing, and upgrading production infrastructure. My first major challenge was to refactor an agricultural simulation program from Python 2.7 to Python 3.6. 
-
-This required intense studying of multi-module biophysical models simulating crop growth over time. The model ingested complex data payloads (soil hydrology, seed data, historical weather time-series) to instantiate real-time objects. Naively, I accepted the challenge. In the end, I succeeded in migrating the application and dramatically optimized its core memory usage and time complexity—taking a simulation execution loop that once took a full minute down to just a few seconds. It became faster, cheaper, and fundamentally easier to scale.
-
-The foundational tools I acquired during this period form the core of my stack today: PostgreSQL, PostGIS, Docker containerization, and cloud data primitives. 
-
-In 2018, I was hired full-time at Agrible, Inc. Later that year, we were acquired by Nutrien, Inc.
+*   **[Print-Ready Chronological Resume (resume.md)](resume.md):** My complete, single-file chronological resume containing contact info, core skills, employment history, featured projects, and education. Ideal for printing or converting directly to PDF.
+*   **[Full Executive Narrative (details/background.md)](details/background.md):** The deep-dive personal biography of my career transition, including my core philosophy, study schedules, and how Donald Knuth's *Big O* notation changed how I clean buildings and write systems.
+*   **[Chronological Work History (details/experience.md)](details/experience.md):** A detailed, bulleted record of my tenure at Nutrien (and formerly Agrible, Inc.) from my start as an intern to my current role as a Senior Computational Scientist.
+*   **[Key Technical Projects (details/projects.md)](details/projects.md):** Standalone deep-dives into my major architectural achievements, mapping the problems, solutions, business impacts, and toolsets of my core work.
+*   **[Technical Skills Catalog (details/skills.md)](details/skills.md):** An organized inventory of my software, infrastructure, API, and mathematical capabilities.
 
 ---
 
-## Nutrien (Data Platform & Infrastructure)
+## 📬 Contact & Connect
 
-At Nutrien, my engineering focus shifted entirely toward **Infrastructure Engineering, Systems Architecture, and MLOps**. I became responsible for designing systems that manage massive, planetary-scale data streams at every stage of their life cycle. 
+If you would like to discuss systems optimization, distributed microservices, or greenfield MLOps deployments, feel free to reach out!
 
-My primary engineering milestones here include:
-* **Orchestration & Scale:** Implementing **Metaflow** alongside AWS Fargate and AWS Batch to handle heavy computational loads and planetary weather data processing, serving as an internal champion to harden production workflows via AWS State Machines.
-* **Storage Architecture:** Effectively utilizing AWS S3 as a high-performance datastore for complex objects and dimensional arrays, specializing in optimized Zarr data stores for massive satellite structures.
-* **Event-Driven Distribution:** Transitioning legacy systems from traditional, rigid cron-based schedules to modern, event-driven architectures leveraging **AWS EventBridge** to automatically trigger and safely distribute core datasets organization-wide upon job completion.
-* **High-Performance APIs:** Architecting low-latency backend microservices using **gRPC** and Protocol Buffers to efficiently stream multi-terabyte environmental datasets (including NOAA and Sentinel-2 imagery) directly to downstream data science and product teams.
-
-I still approach software development with the mindset of a janitor: looking at chaotic, messy data structures, establishing clear-cut structural logic, and leaving the platform cleaner, faster, and more cost-effective than I found it.
+*   **LinkedIn:** [James Barrett](https://www.linkedin.com/in/james-barrett-36075bb3/)
+*   **Personal GitHub:** [jbs-public-function](https://github.com/jbs-public-function)
+*   **Professional GitHub:** [jbagrible](https://github.com/jbagrible)
