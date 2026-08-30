@@ -6,7 +6,7 @@
 
 ---
 
-## 1. Executive Summary (The Narrative Hook)
+## 1. Who I Am
 
 I approach software engineering with the mindset of a night-shift janitor: identifying chaotic, unoptimized structures, establishing clear-cut logical pathways, and leaving the platform cleaner, faster, and more cost-effective than I found it. 
 
@@ -14,7 +14,7 @@ Transitioning from physical janitorial work to systems architecture, I developed
 
 ---
 
-## 2. The Arc of My Career: "From Janitor to Compiler"
+## 2. The Arc of My Career: "From Janitor to Data Janitor"
 
 ### The Starting Point
 I graduated high school without much direction. I wasn't a strong student, and college felt out of reach. I wandered through various survival jobs: fry cook, gas station attendant, and FedEx Ground package handler. Eventually, I secured a job with a local janitorial company. 
