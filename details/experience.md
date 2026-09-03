@@ -16,9 +16,8 @@
 *   **Unified Schema Management:** Standardized communication protocols and schema distribution across internal and external teams by publishing distributed protobuf schemas, replacing slower legacy REST APIs and establishing a single source of truth.
 *   **Leadership & Mentorship:** Mentored a Data Science Intern through the end-to-end design, development, and production deployment of a gRPC microservice providing real-time soil rating data.
 *   **R&D & Remote Sensing (2025 Focus):** Built high-throughput ingestion pipelines for **Zarr-based** remote sensing data (satellite imagery), refactoring pipelines away from costly third-party dependencies. Investigated streaming gRPC data integration with agentic/intelligent systems for field agronomists.
-*   **End-to-End Satellite Imagery Pipeline (MLOps & APIs):** Sourced, cleaned, and analyzed massive spatial datasets to architect a satellite imagery ingestion pipeline. Developed self-healing **Metaflow** workflows that automatically validate, verify, and correct cloud data stores, and designed performant **gRPC microservices** with protobuf contracts to stream metadata and imagery to end-users.
-
-*Key Technologies:* Python, AWS (Batch, Step Functions, S3, RDS, IAM, API Gateway), Metaflow, Terraform, gRPC, Protocol Buffers, Zarr, PostgreSQL, PostGIS, Docker.
+*   **LLM-Assisted Engineering:** Streamlined complex data pipeline development and architecture tasks using **LLM-assisted engineering workflows (Claude Code)**, enabling faster prototyping and safer refactoring of core infrastructure.
+*   **Key Technologies:** Python, AWS (Batch, Step Functions, S3, RDS, IAM, API Gateway), Metaflow, gRPC, Protocol Buffers (protobuf v3), Terraform, Zarr, PostgreSQL, PostGIS, Docker, LLM-Assisted Engineering (Claude Code).
 
 ---
 

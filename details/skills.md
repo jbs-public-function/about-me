@@ -39,10 +39,10 @@ A comprehensive catalog of languages, cloud infrastructure platforms, orchestrat
 
 ---
 
-## 5. Core Specialties (The Value Proposition)
+*   **Core Specialties (The Value Proposition)**
 *   **Legacy Code Modernization:** Refactoring sprawling, unoptimized codebases into performant, OOP, and maintainable systems.
 *   **Cloud Infrastructure Cost Reductions:** Identifying inefficient cloud network topologies, VPC endpoints, and untruthful computing configurations to yield 80-90% cost savings.
 *   **Distributed Microservice Architectures:** Designing high-throughput, low-latency APIs utilizing gRPC to establish organization-wide single sources of truth.
 *   **Geospatial & Remote Sensing Engineering:** Processing multidimensional spatial datasets, satellite imagery, and weather records at global scales.
 *   **Cross-Functional Technical Leadership:** Mentoring junior engineers/interns and serving as the primary engineering translator between pure research scientists and enterprise production platforms.
-*   **LLM-Assisted Engineering ("Vibe Coding"):** Utilizing Claude Code and interactive LLM workflows to rapidly prototype, write, and safely modify complex features outside of legacy baselines.
+*   **LLM-Assisted Engineering ("Vibe Coding"):** Utilizing Claude Code and interactive LLM workflows to rapidly prototype, iterate, and safely modify complex features outside of legacy baselines.

@@ -28,10 +28,10 @@ High-impact systems engineer and infrastructure architect with over 8 years of e
 #### **Senior Computational Scientist** | *January 2022 – Present*
 *Lead architect for data infrastructure, cloud spend optimization, and high-performance microservices.*
 *   **VPC Cost Elimination:** Designed and integrated an AWS S3 historical weather data caching system, bypassing an inefficient VPC network route and **reducing department VPC transfer costs from $800/day to ~$0/day** (saving over $280,000 annually) with zero operational downtime.
-*   **Infrastructure-as-Code & MLOps:** Architected and stood up the corporate **Metaflow** cloud computing stack (API Gateway, AWS Batch, RDS, IAM) managed completely via **Terraform**; served as internal champion to migrate data scientists to reproducible cloud workflows.
-*   **Serverless ETL Migration:** Re-engineered fragile, always-on legacy weather data processing cron-jobs into serverless, automated **AWS Step Functions and AWS Batch** state machines, **reducing monthly AWS RDS and compute costs by 80–90%** while increasing system uptime.
-*   **High-Performance APIs:** Built a distributed network of low-latency **gRPC microservices** using **Protocol Buffers** to stream multi-terabyte datasets (weather, soil, and GIS data) from internal databases, establishing a high-performance, contract-first single source of truth.
-*   **R&D & Remote Sensing (2025 Focus):** Engineered high-throughput, cloud-native ingestion pipelines for **Zarr-formatted** Sentinel-2 remote sensing satellite imagery. Mentored a Data Science Intern through the deployment of a production soil rating gRPC service.
+*   **Infrastructure-as-Code & MLOps:** Built and managed the company's enterprise **Metaflow** cloud computing stack (API Gateway, AWS Batch, RDS, IAM) via **Terraform**; championed data science migration to reproducible, self-serve cloud workflows.
+*   **Serverless ETL Migration:** Re-engineered legacy weather data processing into automated **AWS Step Functions and AWS Batch** state machines, **reducing monthly AWS RDS and compute costs by 80–90%** while significantly increasing system uptime.
+*   **High-Performance APIs:** Architected a distributed constellation of low-latency **gRPC microservices** using **Protocol Buffers** to stream multi-terabyte datasets, establishing a contract-first single source of truth.
+*   **R&D & Remote Sensing (2025 Focus):** Engineered high-throughput, cloud-native ingestion pipelines for **Zarr-formatted** Sentinel-2 satellite imagery. Integrated **LLM-assisted engineering (Claude Code)** to accelerate pipeline prototyping and architecture. Mentored a Data Science Intern through the deployment of a production soil rating gRPC service.
 
 #### **Computational Scientist** | *January 2021 – December 2021*
 *Designed robust data processing pipelines and customer-facing geospatial analytics tools.*

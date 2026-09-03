@@ -71,10 +71,10 @@ Detailed breakdowns of key technical projects, illustrating the translation of c
 ---
 
 ## 7. Self-Healing Satellite Imagery Pipeline & gRPC Microservice Constellation
-*Automating planetary-scale spatial data ingestion and streaming*
+*Automating planetary-scale spatial data ingestion and streaming via LLM-assisted development*
 
 *   **Overview:** Architected an end-to-end ingestion pipeline and low-latency microservice network to ingest, clean, and stream satellite imagery to downstream agronomists & data scientists.
 *   **The Problem:** Satellite spatial data is massive, highly variable, and prone to ingestion-phase corruption or schema drift, requiring heavy manual validation and rendering raw cloud stores unreliable for real-time APIs.
-*   **The Solution:** Built a self-healing ingestion pipeline using **Metaflow** that automatically performs data validation, verification, and automated cloud-store correction upon transfer. Exposed clean imagery metadata and data streams to clients by writing protobuf contracts and building a constellation of performant **gRPC microservices**. Developed using **Claude Code**, utilizing LLM-assisted pair-programming workflows to accelerate delivery.
+*   **The Solution:** Built a self-healing ingestion pipeline using **Metaflow** that automatically performs data validation and verification. Exposed imagery metadata to clients by building a constellation of performant **gRPC microservices**. Developed using **Claude Code** and LLM-assisted pair-programming workflows to accelerate delivery and bridge implementation gaps for complex data-handling features.
 *   **The Impact:** Eliminated manual data verification, guaranteed high-integrity cloud storage, and delivered real-time, contract-driven access to planetary environmental data.
-*   **Key Technologies:** Metaflow, gRPC, Protocol Buffers (protobuf v3), Python, Cloud Data Stores, Claude Code (LLM-assisted development).
+- **Key Technologies:** Metaflow, gRPC, Protocol Buffers (protobuf v3), Python, LLM-Assisted Engineering (Claude Code).
