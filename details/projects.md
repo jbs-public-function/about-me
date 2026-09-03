@@ -67,3 +67,14 @@ Detailed breakdowns of key technical projects, illustrating the translation of c
 *   **The Solution:** Conducted a comprehensive migration to Python 3.6, refactoring the legacy procedural scripts into a clean, modular, and Object-Oriented (OOP) architecture. Optimized core math operations using NumPy/SciPy and eliminated redundant disk/database lookups during the model loop.
 *   **The Impact:** Achieved a **10x performance improvement**, dropping the simulation runtime from **45–60 seconds to just 5–10 seconds** per run, drastically reducing cloud compute costs and enabling real-time interactive simulations.
 *   **Key Technologies:** Python, NumPy, SciPy, Object-Oriented Design, Legacy Code Migration.
+
+---
+
+## 7. Self-Healing Satellite Imagery Pipeline & gRPC Microservice Constellation
+*Automating planetary-scale spatial data ingestion and streaming via LLM-assisted development*
+
+*   **Overview:** Architected an end-to-end ingestion pipeline and low-latency microservice network to ingest, clean, and stream satellite imagery to downstream agronomists & data scientists.
+*   **The Problem:** Satellite spatial data is massive, highly variable, and prone to ingestion-phase corruption or schema drift, requiring heavy manual validation and rendering raw cloud stores unreliable for real-time APIs.
+*   **The Solution:** Built a self-healing ingestion pipeline using **Metaflow** that automatically performs data validation and verification. Exposed imagery metadata to clients by building a constellation of performant **gRPC microservices**. Developed using **Claude Code** and LLM-assisted pair-programming workflows to accelerate delivery and bridge implementation gaps for complex data-handling features.
+*   **The Impact:** Eliminated manual data verification, guaranteed high-integrity cloud storage, and delivered real-time, contract-driven access to planetary environmental data.
+- **Key Technologies:** Metaflow, gRPC, Protocol Buffers (protobuf v3), Python, LLM-Assisted Engineering (Claude Code).

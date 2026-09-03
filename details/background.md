@@ -6,7 +6,7 @@
 
 ---
 
-## 1. Executive Summary (The Narrative Hook)
+## 1. Who I Am
 
 I approach software engineering with the mindset of a night-shift janitor: identifying chaotic, unoptimized structures, establishing clear-cut logical pathways, and leaving the platform cleaner, faster, and more cost-effective than I found it. 
 
@@ -14,7 +14,7 @@ Transitioning from physical janitorial work to systems architecture, I developed
 
 ---
 
-## 2. The Arc of My Career: "From Janitor to Compiler"
+## 2. The Arc of My Career: "From Janitor to Data Janitor"
 
 ### The Starting Point
 I graduated high school without much direction. I wasn't a strong student, and college felt out of reach. I wandered through various survival jobs: fry cook, gas station attendant, and FedEx Ground package handler. Eventually, I secured a job with a local janitorial company. 
@@ -50,3 +50,4 @@ My career transition has instilled three guiding principles that define my techn
 1. **Ruthless Cost & Performance Optimization:** If a query can run in 5 seconds instead of 60, or if a data cache can eliminate an $800/day VPC bill, it is my responsibility to build it. Every redundant byte has a financial cost.
 2. **Simplification of the Complex:** Just as janitorial systems rely on standardized, repeatable patterns to maintain a massive facility, complex software systems must be simplified through clear-cut automation (e.g., Terraform, Serverless Batch, and Step Functions).
 3. **Resiliency Under Pressure:** Balancing full-time UIUC coursework with 40+ hours of night-shift cleaning taught me work ethic and focus. I do not panic when systems break; I isolate the issue, draft a clear plan of action, and sweep the floor until it's spotless.
+4. **Co-Piloting with Intelligent Systems:** I embrace cutting-edge LLM-assisted development (or "vibe coding" via tools like Claude Code). By leveraging LLMs to rapidly build and iterate features outside of existing baselines, I focus my cognitive load on high-level systems architecture, self-healing pipeline design, and end-to-end integration.

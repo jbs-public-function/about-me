@@ -15,9 +15,9 @@
 *   **High-Performance APIs (gRPC):** Architected and deployed a distributed constellation of low-latency **gRPC microservices** using **Protocol Buffers** (protobuf) to serve multi-terabyte datasets (weather, soil, and GIS data) from internal databases. 
 *   **Unified Schema Management:** Standardized communication protocols and schema distribution across internal and external teams by publishing distributed protobuf schemas, replacing slower legacy REST APIs and establishing a single source of truth.
 *   **Leadership & Mentorship:** Mentored a Data Science Intern through the end-to-end design, development, and production deployment of a gRPC microservice providing real-time soil rating data.
-*   **R&D & Remote Sensing (2025 Focus):** Built high-throughput ingestion pipelines for **Zarr-based** remote sensing data (Sentinel-2 satellite imagery), refactoring pipelines away from costly third-party dependencies. Investigated streaming gRPC data integration with agentic/intelligent systems for field agronomists.
-
-*Key Technologies:* Python, AWS (Batch, Step Functions, S3, RDS, IAM, API Gateway), Metaflow, Terraform, gRPC, Protocol Buffers, Zarr, PostgreSQL, PostGIS, Docker.
+*   **R&D & Remote Sensing (2025 Focus):** Built high-throughput ingestion pipelines for **Zarr-based** remote sensing data (satellite imagery), refactoring pipelines away from costly third-party dependencies. Investigated streaming gRPC data integration with agentic/intelligent systems for field agronomists.
+*   **LLM-Assisted Engineering:** Streamlined complex data pipeline development and architecture tasks using **LLM-assisted engineering workflows (Claude Code)**, enabling faster prototyping and safer refactoring of core infrastructure.
+*   **Key Technologies:** Python, AWS (Batch, Step Functions, S3, RDS, IAM, API Gateway), Metaflow, gRPC, Protocol Buffers (protobuf v3), Terraform, Zarr, PostgreSQL, PostGIS, Docker, LLM-Assisted Engineering (Claude Code).
 
 ---
 
